@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:ClassLibrary.Car">
+            <summary>
+            child class Car
+            </summary>
+        </member>
+        <member name="F:ClassLibrary.Car.price">
+            <summary>
+            properties
+            </summary>
+        </member>
+        <member name="M:ClassLibrary.Car.#ctor(System.String,System.DateTime,System.Boolean)">
+            <summary>
+            constructor of a car class
+            </summary>
+            <param name="licensePlate"></param>
+            <param name="date"></param>
+            <param name="brobizz"></param>
+        </member>
+        <member name="M:ClassLibrary.Car.Price">
+            <summary>
+            price method
+            </summary>
+            <returns>double</returns>
+        </member>
+        <member name="M:ClassLibrary.Car.VehicleType">
+            <summary>
+            vehicle type method
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="T:ClassLibrary.MC">
+            <summary>
+            Child class MC
+            </summary>
+        </member>
+        <member name="F:ClassLibrary.MC.price">
+            <summary>
+            properties of MC
+            </summary>
+        </member>
+        <member name="M:ClassLibrary.MC.#ctor(System.String,System.DateTime,System.Boolean)">
+            <summary>
+            constructor of MC class
+            </summary>
+        </member>
+        <member name="M:ClassLibrary.MC.Price">
+            <summary>
+            Price method for the MC class
+            </summary>
+            <returns>double</returns>
+        </member>
+        <member name="M:ClassLibrary.MC.VehicleType">
+            <summary>
+            VehicleType method for the MC class
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="T:ClassLibrary.Vehicle">
+            <summary>
+            base class Vehicle
+            </summary>
+        </member>
+        <member name="P:ClassLibrary.Vehicle.LicensePlate">
+            <summary>
+            property LicensePlate
+            </summary>
+        </member>
+        <member name="P:ClassLibrary.Vehicle.Date">
+            <summary>
+            property Date
+            </summary>
+        </member>
+        <member name="F:ClassLibrary.Vehicle.price">
+            <summary>
+            prop price
+            </summary>
+        </member>
+        <member name="P:ClassLibrary.Vehicle.Brobizz">
+            <summary>
+            prop brobizz
+            </summary>
+        </member>
+        <member name="M:ClassLibrary.Vehicle.#ctor(System.String,System.DateTime,System.Boolean)">
+            <summary>
+            base class constructor
+            </summary>
+            <param name="licensePlate"></param>
+            <param name="date"></param>
+        </member>
+        <member name="M:ClassLibrary.Vehicle.Price">
+            <summary>
+            base class method Price, it has to be virtual to be possible to override it in child classes
+            </summary>
+            <returns>double</returns>
+        </member>
+        <member name="P:ClassLibrary.Vehicle.LicensePlateLength">
+            <summary>
+            License Plate Length exception, if character number is longer than 7 the number is incorrect
+            </summary>
+        </member>
+    </members>
+</doc>

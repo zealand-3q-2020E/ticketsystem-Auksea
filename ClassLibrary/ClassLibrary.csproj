@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\Aukse\Source\Repos\ticketsystem-AukseaNew\ClassLibrary\ClassLibrary.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>
